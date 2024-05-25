@@ -1,0 +1,19 @@
+
+.tabContent{
+    display: none;
+}
+
+.tabLinks{
+    background-color:rgb(20, 175, 175);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.tabLinks.active{
+    background-color: #dad;
+    color: #333;
+}
+
+.tabContent.active{
+    display: block;
+}
