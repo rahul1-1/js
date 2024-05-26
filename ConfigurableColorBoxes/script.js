@@ -33,8 +33,6 @@ form.addEventListener("submit", function (event) {
         currentWidth = inputWidth.value
     }
     availableWidth = availableWidth - inputWidth.value
-    console.log("availableWidth ", availableWidth)
-    console.log("currentWidth ", currentWidth)
     if(availableWidth<0){
         availableWidth = 0;
     }
